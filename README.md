@@ -95,3 +95,14 @@ URL: http://localhost:3000/api/posts
 Parametri della query: (Esempio che ho utilizzato)
 page: 1
 pageSize: 10
+
+### ROTTA NON TROVATA -> STATO HTTP 404 RESTITUENDO MESSAGGIO DI ERRORE
+
+Metodo: GET
+
+URL: http://localhost:3000/api/non-esiste
+
+Risultato ottenuto:
+{
+"error": "Rotta non trovata"
+}
