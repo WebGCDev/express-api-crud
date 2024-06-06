@@ -85,3 +85,13 @@ Metodo: DELETE
 URL: http://localhost:3000/api/posts/strategie-di-gioco-pallavolo-moderna
 
 SEND---------> OK
+
+### Verifica della paginazione
+
+Metodo: GET
+
+URL: http://localhost:3000/api/posts
+
+Parametri della query: (Esempio che ho utilizzato)
+page: 1
+pageSize: 10
